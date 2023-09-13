@@ -258,6 +258,9 @@
     rgba(9, 9, 121, 0.51) 35%,
     rgba(0, 212, 255, 0.79) 100%
   );
+  @media screen and (min-width: 1200px) {
+    padding: 30px 50px;
+  }
 }
 
 .footer__title {
