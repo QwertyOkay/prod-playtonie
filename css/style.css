@@ -292,12 +292,9 @@
   background-image: linear-gradient(90deg, rgba(2, 0, 36, 0.27) 0%, rgba(9, 9, 121, 0.51) 35%, rgba(0, 212, 255, 0.79) 100%), url(../img/Main.jpeg);
 }
 
+.webp .hero--terms,
+.webp .hero--privacy,
 .webp .hero--gdpr {
-  background-image: url(../img/gdpr-hero.webp);
-  background-image: linear-gradient(90deg, rgba(2, 0, 36, 0.27) 0%, rgba(9, 9, 121, 0.51) 35%, rgba(0, 212, 255, 0.79) 100%), url(../img/Main.jpeg);
-}
-
-.webp .hero--terms {
   background-image: url(../img/gdpr-hero.webp);
   background-image: linear-gradient(90deg, rgba(2, 0, 36, 0.27) 0%, rgba(9, 9, 121, 0.51) 35%, rgba(0, 212, 255, 0.79) 100%), url(../img/Main.jpeg);
 }
