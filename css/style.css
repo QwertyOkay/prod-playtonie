@@ -308,4 +308,46 @@
   .section--offset {
     padding: 120px 50px;
   }
+}
+
+.contact-form {
+  width: 600px;
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+.products-item__title {
+  text-align: left;
+}
+
+.contact__form-field:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.contact__form-field input {
+  display: block;
+  width: 100%;
+  outline: 0;
+  padding: 15px 20px;
+  color: #000;
+  border: 1px solid #cecece;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.primary__btn {
+  position: relative;
+  width: 280px;
+  padding: 20px 10px;
+  text-align: center;
+  background-color: #000;
+  overflow: hidden;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
