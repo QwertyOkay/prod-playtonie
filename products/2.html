@@ -19,9 +19,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/global.min.css?ver=2">
   <link rel="stylesheet" href="../css/styleMain.min.css?ver=2">
-   <link rel="stylesheet" href="../css/style.min.css?ver=2">
+  <link rel="stylesheet" href="../css/style.min.css?ver=2">
 
-  <title>Animal Adventures</title>
+  <title>Starter Set Audio Speaker for Kids – Pink</title>
 </head>
 
 <body>
@@ -75,11 +75,11 @@
         <div class="container">
           <div class="grid">
             <div class="item__image">
-              <img src="../img/2.jpg" alt="">
+              <img src="../img/22.webp" alt="">
             </div>
             <div class="item__info">
               <div class="item__info-top">
-                <h4 class="products-item__title">Animal Adventures</h4>
+                <h4 class="products-item__title">Starter Set Audio Speaker for Kids – Pink</h4>
                 <div class="products-item__rate rate">
                   <div class="stars rate-stars">
                     <span class="stars-checked">
@@ -114,21 +114,23 @@
                 </div>
                 <div class="products-item__price">
                   <span>&#8364;</span>
-                  25.99
+                  99,99
                 </div>
               </div>
               <div class="item__info-bottom">
                 <p class="single-product__text">Thank you for your interest.</p>
                 <p class="single-product__text">Please leave us your email, and we will contact you soon.</p>
-                  <form class="single-product__form">
-                <div class="contact__form-field">
-                  <input type="email" placeholder="Type your email" required id="email" pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$"
-                                required>
-                </div>
-                <button type="submit" class="single-product__btn primary__btn" data-toggle="modal" data-target="#thanks">
-                  <span>order</span>
-                </button>
-              </form>
+                <form class="single-product__form">
+                  <div class="contact__form-field">
+                    <input type="email" placeholder="Type your email" required id="email"
+                      pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$"
+                      required>
+                  </div>
+                  <button type="submit" class="single-product__btn primary__btn" data-toggle="modal"
+                    data-target="#thanks">
+                    <span>order</span>
+                  </button>
+                </form>
               </div>
             </div>
 
@@ -147,7 +149,7 @@
         </div>
       </div>
     </main>
-   <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <div class="footer__grid">
           <div class="footer__info">
@@ -253,24 +255,24 @@
             </div>
           </div>
         </div>
-        <p class="footer__copyright">Playtonie.com &copy;  2022 - <span id="year"></span>. All rights reserved</p>
+        <p class="footer__copyright">Playtonie.com &copy; 2022 - <span id="year"></span>. All rights reserved</p>
       </div>
     </footer>
     <div class="btn-up btn-up_hide"></div>
   </div>
   <script>
-  document.addEventListener('submit', function (e) {
-    e.preventDefault(); 
-    if (e.target.classList.contains('single-product__form')) {
-      const emailInput = e.target.querySelector('#email');
+    document.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (e.target.classList.contains('single-product__form')) {
+        const emailInput = e.target.querySelector('#email');
 
-      if (emailInput.checkValidity()) {
-        const modal = document.querySelector('#thanks');
-        modal.classList.add('open');
+        if (emailInput.checkValidity()) {
+          const modal = document.querySelector('#thanks');
+          modal.classList.add('open');
+        }
       }
-    }
-  });
-</script>
+    });
+  </script>
   <script src="../js/app.min.js?ver=2"></script>
 </body>
 
