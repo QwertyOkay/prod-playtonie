@@ -520,6 +520,12 @@
   }
 }
 
+.section--offset {
+  @media screen and (max-width: 500px) {
+    padding: 50px 0;
+  }
+}
+
 .contact-form {
   width: 600px;
   max-width: 100%;
@@ -548,6 +554,7 @@
   -webkit-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
+  border-radius: 10px;
 }
 
 .primary__btn {
@@ -560,4 +567,6 @@
   color: #fff;
   font-size: 20px;
   text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
 }
