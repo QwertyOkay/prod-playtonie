@@ -583,3 +583,9 @@
 .products-item__title {
   min-height: auto;
 }
+
+.item__image {
+  @media screen and (min-width: 1200px) {
+    max-width: 510px;
+  }
+}

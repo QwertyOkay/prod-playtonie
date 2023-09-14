@@ -372,4 +372,10 @@
 
 .products-item__title {
   min-height: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .item__image {
+    max-width: 510px;
+  }
 }/*# sourceMappingURL=style.css.map */
