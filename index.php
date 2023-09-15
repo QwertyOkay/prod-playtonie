@@ -32,11 +32,11 @@ $client->executeAndBreak(); // to stop page execution if there is redirect or so
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/global.min.css?ver=2 ">
-  <link rel="stylesheet" href="./css/styleMain.min.css?ver=2">
-  <link rel="stylesheet" href="./css/style.min.css?ver=2">
+  <link rel="stylesheet" href="./css/global.min.css?ver=3">
+  <link rel="stylesheet" href="./css/styleMain.min.css?ver=3">
+  <link rel="stylesheet" href="./css/style.min.css?ver=3">
 
-  <title>Playtosy.com</title>
+  <title>Playtonie.com</title>
 </head>
 
 <body>
@@ -287,7 +287,7 @@ $client->executeAndBreak(); // to stop page execution if there is redirect or so
 <div class="btn-up btn-up_hide"></div>
   </div>
 
-  <script src="js/app.min.js?ver=2"></script>
+  <script src="./js/app.min.js?ver=3"></script>
 </body>
 
 </html>
